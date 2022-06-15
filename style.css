@@ -1,0 +1,151 @@
+body{
+    background-color:  hsl(233, 47%, 7%);
+    color:white;
+}
+.main-container{
+display: flex;
+flex-direction:row;
+width:800px;
+height:325px;
+background-color: hsl(244, 38%, 16%);
+margin: auto;
+box-sizing: border-box;
+top:200px;
+position: relative;
+border-radius: 8px;
+}
+.left{
+    width:50%;
+}
+.pre-head{
+    font-size:1.5rem;
+    font-family: 'Lexend Deca',monospace;
+    font-weight: 700;
+    position: relative;
+  margin-left:12%;
+  margin-top:10%;
+}
+pre span{
+    color:hsl(277, 64%, 61%);
+}
+.description{
+    font-family: Inter,monospace;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size:0.6rem;
+    margin-left:12%;
+    line-height:1.2rem;
+}
+.stats{
+    width:100%;
+    font-family:Inter;
+    font-weight: 700;
+    margin-left:13%;
+    margin-top:10%;
+}
+.stats p{
+    display:inline-block;
+    margin-right: 10%
+}
+.stats span{
+    font-size:0.6rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight:400;
+}
+.right{
+    width: 50%;
+    background-image: url(https://github.com/jakewebd/Stat-Card/blob/main/images/image-header-desktop.jpg?raw=true);
+    background-size: cover;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.accent{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 40%, 0.5);
+}
+.bottom{
+    position: relative;
+    top:400px;
+}
+@media screen and (max-width:375px){
+
+    body{
+        background-color:  hsl(233, 47%, 7%);
+        color:white;
+    }
+    .main-container{
+    display: flex;
+    flex-direction:column-reverse;
+    width:275px;
+    height:575px;
+    background-color: hsl(244, 38%, 16%);
+    margin: auto;
+    box-sizing: border-box;
+    top:50px;
+    position: relative;
+    border-radius: 8px;
+    }
+    .left{
+        height:70%;
+        margin-top:5%;
+    }
+    .pre-head{
+        font-size:1.2rem;
+        font-family: 'Lexend Deca',monospace;
+        font-weight: 700;
+        position: relative;
+      margin-left:40px;
+      margin-top:10%;
+    }
+    pre span{
+        color:hsl(277, 64%, 61%);
+    }
+    .description{
+        font-family: Inter,monospace;
+        font-weight: 400;
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size:0.5rem;
+        margin-left:40px;
+        line-height:1.2rem;
+    }
+    .stats{
+        width:100%;
+        font-family:Inter;
+        font-weight: 700;
+        margin-left:13%;
+        margin-top:10%;
+    }
+    .stats p{
+    width:100%;
+    margin-left:90px;
+    }
+    .stats span{
+        font-size:0.6rem;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-weight:400;
+        position: relative;
+    }
+    .stat-name{
+        right:10px;
+    }
+    .right{
+        height: 30%;
+        width: 100%;
+        background-image: url(https://github.com/jakewebd/Stat-Card/blob/main/images/image-header-desktop.jpg?raw=true);
+        background-size: cover;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+    .accent{
+        width: 100%;
+        height: 100%;
+        background-color: hsla(277, 64%, 40%, 0.5);
+    }
+    .bottom{
+        position: relative;
+        top:400px;
+    }
+
+
+}
